@@ -1,15 +1,11 @@
-# openscada-docker-0.8-LTS
-OpenSCADA is an open implementation of SCADA (Supervisory Control And Data Acquisition) and HMI (Human-Machine Interface) systems.
+# openscada-docker-0.9-LTS
+
+OpenSCADA - открытая реализация систем SCADA (Supervisory Control And Data Acquisition) и HMI (Human-Machine Interface)
 
 http://oscada.org
 
-# Install  
-```docker pull iritoasutp/openscada-docker-0.8-lts```
+# Запуск
 
-# Run
-```docker run -d --name openscada --publish 10002:10002  --restart=always -v ~/.openscada/:/root/.openscada/ iritoasutp/openscada-docker-0.8-lts```
+```docker run -d -p 10002:10002 --name openscada --restart=always -v ~/.openscada/:/root/.openscada/ sinoptiiic/oscada```
 
-where **~/.openscada** is your project.
-
-# Contacts
-Maintainer: Alexander Komarov ignusius@gmail.com
+папка проекта: **~/.openscada**
