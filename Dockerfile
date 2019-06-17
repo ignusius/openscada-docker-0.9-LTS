@@ -8,4 +8,4 @@ RUN apt-get update -y
 RUN apt-get install openscada-model-aglks -y
 
 EXPOSE 10002
-CMD ["/usr/bin/openscada_start", "--noX11"]
+CMD ["/usr/bin/openscada_AGLKS", "--noX11"]
