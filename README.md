@@ -1,6 +1,6 @@
 # openscada-docker-0.9-LTS
 
-OpenSCADA - открытая реализация систем SCADA (Supervisory Control And Data Acquisition) и HMI (Human-Machine Interface)
+OpenSCADA — открытая реализация систем SCADA (Supervisory Control And Data Acquisition) и HMI (Human-Machine Interface)
 
 http://oscada.org
 
