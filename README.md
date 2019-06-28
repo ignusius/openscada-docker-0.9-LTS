@@ -6,6 +6,6 @@ http://oscada.org
 
 # Запуск
 
-```docker run -d -p 10002:10002 --name openscada --restart=always -v ~/.openscada/:/root/.openscada/ sinooptiic/oscada```
+```docker run -d -p 10002:10002 --name openscada --restart=always -v ~/.openscada/:/root/.openscada/ sinooptiic/oscada:latest```
 
 папка проекта: **~/.openscada**
